@@ -10,7 +10,7 @@ const Header = () => {
       </HeaderTitles>
       <HeaderImg
         className="headerImg"
-        src="https://4kwallpapers.com/images/wallpapers/dark-background-abstract-background-network-3d-background-2560x1440-8324.png"
+        src="https://cdn-blog.novoresume.com/articles/networking-statistics/bg.png"
         alt=""
       />
     </Container>
@@ -20,7 +20,7 @@ const Header = () => {
 export default Header
 
 const Container = styled.div`
-    margin-top: 60px;
+    margin-top: 30px;
     
 `
 const HeaderTitles = styled.div`
@@ -33,7 +33,7 @@ const HeaderTitles = styled.div`
 
 const HeaderTitleSm = styled.span`
     position: absolute;
-    top: 16%;
+    top: 13%;
     font-size: 20px;
     font-size: 72px;
     background: -webkit-linear-gradient(#eee, #333);
@@ -42,7 +42,7 @@ const HeaderTitleSm = styled.span`
 `
 const HeaderTitleLg = styled.span`
     position: absolute;
-    top: 20%;
+    top: 17%;
     font-size: 100px;
     
 `
