@@ -1,8 +1,8 @@
-import { Badge } from "@mui/material";
-import { Search, ShoppingCartOutlined } from "@mui/icons-material";
+import { Search} from "@mui/icons-material";
 import React from "react";
 import styled from "styled-components";
 import { mobile } from "../responsive";
+import {Link} from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SIGN IN</MenuItem>
+          <Link to='/'><MenuItem>SIGN IN</MenuItem></Link>
         </Right>
       </Wrapper>
     </Container>

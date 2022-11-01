@@ -59,7 +59,7 @@ const Charts = () => {
   return (
     <Container>
         <BarChart
-      width={1500}
+      width={800}
       height={500}
       data={data}
       margin={{
@@ -86,4 +86,6 @@ export default Charts
 const Container = styled.div`
     width: 100%;
     height: 70vh;
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 `
